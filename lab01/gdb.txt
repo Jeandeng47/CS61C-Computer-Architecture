@@ -1,9 +1,17 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. Command to set the arguments passed to the program: `set args arg1 arg2`
+
+2. Command to create a breakpoint at line 5: `br 5`
+
+3. Command to execute the next line: `next` or `n`
+
+4. Command to debug the code inside the function: `step`
+
+5. Command to continue the program after setting a breakpoint: `continue`
+
+6. Command to print the value of variable: `print varname`; command to print an expression: `print 1+2`
+
+7. Command to configure GDB to display the value of variable after every step: `display varname`
+
+8. Command to show a list of variables and values in the current function: `info locals`
+
+9. Command to quit GDB: `q` or `quit`
