@@ -1,4 +1,7 @@
-1.
-2.
-3.
-4.
+1. We could use `grap` command and `find` command to find files containing specific keywords through file hierarchy. For example, to find file containing keyword "example", we could use the following command: find . -type f -exec grep -l "example" {} +
+
+2. The command to display information about the active processes running on the current terminal: ps aux
+
+3. The command to kill a specific proccess: kill pid
+
+4. The command to find the difference between two files: diff file1.txt file2.txt
